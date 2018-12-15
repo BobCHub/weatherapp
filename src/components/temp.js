@@ -1,3 +1,6 @@
+// This was my attempt at creating a temperature unit selector by using two buttons
+
+
 import React from 'react';
 import ReactDOM from "react-dom";
 
