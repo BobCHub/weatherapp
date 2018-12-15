@@ -1,4 +1,4 @@
-
+// This was my attemp at creating a countries.js file to remove json from form.js...cleanup.
 import React from 'react';
 const countries = [{
 		label: 'Canada',
