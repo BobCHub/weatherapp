@@ -21,9 +21,8 @@ class App extends React.Component {
       icon: ''
 
     };
-
-    // this.handleSubmit = this.handleSubmit.bind(this);
-    // this.handleLocationChange = this.handleLocationChange.bind(this);
+    
+    // My attempt at integration of weather unit selection
     // this.handleToggle = this.handleToggle.bind(this);
     // this.getWeather = this.getWeather.bind(this);
   }    

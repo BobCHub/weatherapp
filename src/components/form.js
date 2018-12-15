@@ -1009,7 +1009,7 @@ const Form = (props) => {
 }
 export default Form;
 
-/*
+/* Trying to get rid of country json into another file...uhg.
 import jsonData from './countries.json';
 
 const loadData = () => JSON.parse(JSON.stringify(jsonData));
