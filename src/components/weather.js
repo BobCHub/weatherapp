@@ -10,14 +10,13 @@ class Weather extends React.Component{
 		return(
              
 			<Card  style={{ width: 300, 
-							fontSize: '16px', 
-							
-							textColor: 'blue', 
-							fontFamily: 'Open Sans, sans-serif', 
-							includeFontPadding:"true"}}
+					fontSize: '16px', 		
+					textColor: 'blue', 
+					fontFamily: 'Open Sans, sans-serif', 
+				        includeFontPadding:"true"}}
 				>
 				&nbsp;
-				<div style={{ background: '#white', padding: '5px' }}>
+				<div style={{ background: '#ECECEC', padding: '5px' }}>
 			       <Row gutter={8}>
                                <Col span={8}>
 				{
