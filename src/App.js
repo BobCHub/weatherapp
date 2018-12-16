@@ -13,6 +13,8 @@ class App extends React.Component {
 
     this.state = {
       city: '',
+      coordlon:'',
+      coordlat:'',
       country:'',
       units: 'metric',
       temp: { current: '', max: '', min: '' },			
@@ -46,6 +48,8 @@ class App extends React.Component {
       this.setState({
         temperature: response.main.temp,
         city: response.name,
+        coordlat: response.coord.lat,
+        coordlon: response.coord.lon,
         country: response.sys.country,
         humidity: response.main.humidity,
         description: response.weather[0].description,

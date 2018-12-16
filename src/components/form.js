@@ -1025,3 +1025,36 @@ jsonfile.readFile(file)
 	
 */
 
+/* Possible unit conversion
+
+function metricUnits(){
+		 if(metric.checked){
+			units: = "metric";
+			 type="C";
+			 imperial.checked = false;
+		 }else{
+			 units: = "imperial";
+			 type="F";
+		 }
+		 urlResult();
+	 }
+
+	 function imperialUnits(){
+		 if(imperial.checked){
+			 units = "imperial";
+			 type="F";
+			 metric.checked = false;
+		 }else{
+			units: = "metric";
+			 type="C";
+		 }
+		 urlResult();
+	 }
+	
+	<p>
+	<input type="checkbox" id="imperial" value="imperial" onclick="imperialUnits()" checked>Fahrenheit
+	<input type="checkbox" id="metric" value="metric" onclick="metricUnits()">Celsius
+	</p> 
+	
+*/
+
