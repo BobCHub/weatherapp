@@ -43,7 +43,7 @@ class App extends React.Component {
     /* convert to json */
     const response = await api_call.json();
     console.log(response);
-    
+    /* Both are required before setting States */
     if (city && country) {
       this.setState({
         temperature: response.main.temp,
