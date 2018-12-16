@@ -11,12 +11,15 @@ class Weather extends React.Component{
              
 			<Card  style={{ width: 300, 
 							fontSize: '16px', 
+							
 							textColor: 'blue', 
 							fontFamily: 'Open Sans, sans-serif', 
 							includeFontPadding:"true"}}
 				>
 				&nbsp;
-				<div> 
+				<div style={{ background: '#white', padding: '5px' }}>
+			       <Row gutter={8}>
+                               <Col span={8}>
 				{
 					this.props.country && this.props.city && <p className="weather__key">Location: 
 						<span className="weather__value">  {this.props.city}, {this.props.country}</span>                    
@@ -51,6 +54,12 @@ class Weather extends React.Component{
 				{
 					this.props.error && <p className="weather__error">{this.props.error}</p>
 				}
+				</Col>
+				<Col span={8}>
+        			<Card title="" bordered={false}>Card content</Card>
+      				</Col>
+      
+    				</Row>
 		       </div>
 		        
 			</Card>
@@ -62,4 +71,6 @@ class Weather extends React.Component{
 }
 
 export default Weather;
+
+
 
