@@ -55,12 +55,7 @@ class Weather extends React.Component{
 				}
 				</Col>
 				<Col span={8}>
-        			<Card title="" bordered={false}>{
-					this.props.description && <p className="weather__key">  
-						<span className="weather__value">  <img src={`http://openweathermap.org/img/w/${this.props.icon}.png`} style={{width: 100, height: 100}}/></span>
-					</p>
-					
-				}</Card>
+        			<Card title="" bordered={false}>This is suppose to be where map is located</Card>
       				</Col>
       
     				</Row>
