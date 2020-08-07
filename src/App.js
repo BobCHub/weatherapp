@@ -3,7 +3,7 @@ import Weather from "./components/weather";
 import Form from "./components/form";
 import Titles from "./components/titles";
 //import Temp from "./components/temp";
-const Api_Key = "ab1c42024fc38bb21538762b2854b11a";
+const Api_Key = "*****************************";
 
 
 
